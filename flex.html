@@ -66,7 +66,9 @@ Description : Flex Layouts.
         
 
         @media screen and (min-width: 769px) {
-            .menu { width: 150px; }     
+			.body { display: flex;}
+			.menu { width: 150px;
+			height: 100vh; }        
 			.large { 
 				width: 100%;
 			}
@@ -83,8 +85,9 @@ Description : Flex Layouts.
 				width: 100%;
 			}
             .menu ul { 
-				display: block;
-			 }            
+				display: flex;
+				flex-direction: row;
+			 }
 			.large { 
 				width: 100%;
 			}
